@@ -1,0 +1,50 @@
+body {
+    background-color: #F5F5DC;
+}
+
+.food-card {
+    text-align: center;
+    margin: 20px;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.food-image {
+    height: 40%;
+    width: 40%;
+    /* max-width: 100%; */
+    border-radius: 30px;
+}
+
+ul li {
+    list-style: none;
+    transition: transform 0.3s ease;
+}
+
+ul li:hover{
+    transform: translateY(-5px) scale(1.2); /* Moves it UP and slightly LARGER */
+    color: #ff6347; /* Changes to a tomato red */
+}
+
+ol li {
+    text-align: justify;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+ol li:hover {
+    transform: translateY(5px) scale(1.1);
+    color: #6B8E23;
+}
+
+
+hr{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 20%;
+    height: 20%;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tip-form {
+    text-align: center;
+    margin: 10%;
+    padding: 9%;
+    background-color: rgb(131, 168, 168);
+}
+h1 {
+    font-size: 3rem;
+}
+
+label {
+    font-size: 1.7rem;
+}
+
+input, .billAmount {
+    font-size: 1.3rem;
+}
+
+button {
+    font-size: 1.5rem;
+}
