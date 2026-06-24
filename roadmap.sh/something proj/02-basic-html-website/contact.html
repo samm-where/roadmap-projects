@@ -3,54 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--SEO META Tags-->
-    <meta property="og:description" content="Basic HTML Website assigned from roadmap.sh">
-    <meta property="og:keywords" content="HTML, Beginner, Static">
-    <meta property="author" content="Sam Bolina, samm-where">
-
-    <title>Contact | Basic HTML Website</title>
+    <meta name="description" content="My own very Basic Website">
+    <!-- SEO META TAGS -->
+    <meta name="description" content="A very simple HTML and CSS website for roadmap.sh frontend"/>
+    <meta name="keywords" content="Frontend Projects, HTML, CSS, Roadmap.sh"/>
+    <meta name="author" content="samm-where">
+    <title>My own very Basic Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="articles.html">Articles</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+        <div class="logo">
+            <img width="64" src="img/Saitamchiii.jpg" alt="saitama-face">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="contact">
-            <h1>Contact Me!</h1>
-            <p>If you have any questions, suggestions, or just want to say hello, feel free to reach out to me through the following channels:</p>
-            <ul>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">GitHub</a></li>
-            </ul>
-
-            <form action="#">
+            <h1>Contact</h1>
+            <form action="submit_form.php" method="post">
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required>
+                <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                <input type="text" id="email" name="email" required>
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea name="message" id="message" rows="5" required></textarea>
 
                 <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Sam Bolina. All rights reserved.</p>
-    </footer>    
+      <p>&copy; all rights reserved 2026</p>
+    </footer>
 </body>
 </html>
